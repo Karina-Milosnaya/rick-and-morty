@@ -1,5 +1,20 @@
+import {HomePage} from "./pages/HomePage/HomePage.jsx";
+import {CharacterPage} from "./pages/CharacterPage/CharacterPage.jsx";
+import {EpisodePage} from "./pages/EpisodePage/EpisodePage.jsx";
+import {LocationPage} from "./pages/LocationPage/LocationPage.jsx";
+import {Header} from "./common/components/Header/Header.jsx";
+
 function App() {
-    return <div>Hello world</div>
+    return(
+        <>
+            <Header/>
+            <HomePage/>
+            <CharacterPage/>
+            <LocationPage/>
+            <EpisodePage/>
+        </>
+
+    )
 }
 
 export default App
