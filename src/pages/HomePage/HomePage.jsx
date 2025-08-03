@@ -1,5 +1,15 @@
+import {NavLink} from "react-router";
 export const HomePage = () => {
     return (
-        <h1>The Rick and Morty</h1>
+        <>
+            <h1>The Rick and Morty</h1>
+            <nav>
+                <NavLink to={'/characters'}>Characters</NavLink>
+                <NavLink to={'/locations'}>Locations</NavLink>
+                <NavLink to={'/episodes'}>Episodes</NavLink>
+            </nav>
+
+        </>
+
     )
 }
